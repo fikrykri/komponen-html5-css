@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Komponen | Form</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/form.css">
+	</head>
+
+	<body>
+		<section class="container">
+			<header>
+				<img src="images/logo.png">
+			</header>
+			<section class="content">
+				
+				<form action="proses-login.php" method=""> 
+					
+					<label class="font-style">
+						Nama Lengkap
+						<input class="input" type="text" name="iNama" placeholder="Masukan Nama Disini">
+					</label>
+
+					<label class="font-style">
+						Telepon
+						<input class="input" type="number" name="iTelepon" placeholder="Masukan Telepon Disini">
+					</label>
+
+					<label class="font-style">
+						Alamat
+						<textarea class="input" rows="5"></textarea>
+					</label>
+
+					<fieldset class="font-style">
+						<legend>Hobi</legend>
+						<label>
+							<input type="checkbox" value="Programming">Programming
+						</label>
+						<label>
+							<input type="checkbox" value="Futsal">Futsal
+						</label>
+						<label>
+							<input type="checkbox" value="Badminton">Badminton
+						</label>
+						<label>
+							<input type="checkbox" value="Gaming">Gaming
+						</label>
+					</fieldset>
+
+					<fieldset class="font-style">
+						<legend>Pekerjaan</legend>
+						<label>
+							<input type="radio" value="Karyawan Swasta" name="iPekerjaan">Karyawan Swasta
+						</label>
+						<label>
+							<input type="radio" value="Pegawai Negeri" name="iPekerjaan">Pegawai Negeri
+						</label>
+						<label>
+							<input type="radio" value="Freelance" name="iPekerjaan">Freelance
+						</label>
+						<label>
+							<input type="radio" value="Belum Bekerja" name="iPekerjaan">Belum Bekerja
+						</label>
+					</fieldset>
+
+					<label class="font-style">
+						Ukuran Sepatu
+						<select class="input">
+							<option value=""></option>
+							<option value="37">Nomor 37</option>
+							<option value="38">Nomor 38</option>
+							<option value="39">Nomor 39</option>
+							<option value="40">Nomor 40</option>
+							<option value="41">Nomor 41</option>
+							<option value="42">Nomor 42</option>
+						</select>
+					</label>
+
+					<label class="font-style">
+						Warna Favorit
+						<input list="warna" class="input">
+						<datalist id="warna">
+							<option value="Merah">Warna Merah
+							<option value="Biru">Warna Biru
+							<option value="Kuning">Warna Kuning
+							<option value="Hijau">Warna Hijau
+							<option value="Ungu">Warna Ungu
+							<option value="Pink">Warna Pink
+						</datalist>
+					</label>
+
+					<label class="font-style">
+						Email
+						<input class="input" type="email" name="iEmail" placeholder="Masukan Email Disini">
+					</label>
+
+					<label class="font-style">
+						Password
+						<input class="input" type="password" name="iPass" placeholder="Masukan Password Disini">
+					</label>
+
+					<input type="submit" name="iSubmit" value="Kirim">
+
+				</form>
+
+			</section class="content">
+			<nav class="sidebar">
+
+				<a href="index.html">Menu</a>
+				<a href="form.html" class="active">Form</a>
+				<a href="tabel.html">Tabel</a>
+				
+			</nav>
+			<footer>by FikryKrii</footer>
+		</section>
+	</body>
+</html>

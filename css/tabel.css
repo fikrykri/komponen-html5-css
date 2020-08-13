@@ -1,0 +1,39 @@
+table{
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid #888787;
+}
+
+th, td{
+	border: 1px solid #888787;
+	padding: 5px 10px;
+}
+
+th{
+	background: #e1e1e1;
+}
+
+caption{
+	text-align: left;
+	margin: 5px 0px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.no {
+	width: 15px;
+}
+
+.tengah{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.total{
+	text-align: right;
+	font-weight: bold;
+}
+
+.font-right{
+	text-align: right;
+}
